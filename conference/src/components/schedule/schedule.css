@@ -1,0 +1,71 @@
+/* Schedule Section */
+.schedule {
+    margin: 60px 0;
+    padding: 40px 20px;
+    background-color: #f8f9fa; /* Light background for contrast */
+    text-align: center;
+  }
+  
+  .schedule-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .schedule h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 40px;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .schedule h2::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -10px;
+    width: 60px;
+    height: 4px;
+    background-color: #0d6efd;
+    transform: translateX(-50%);
+  }
+  
+  .schedule-details {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 40px 0;
+  }
+  
+  .schedule-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .schedule-icon {
+    font-size: 2rem;
+    color: #0d6efd;
+  }
+  
+  .schedule-item p {
+    font-size: 1.1rem;
+    color: #333;
+    margin: 0;
+  }
+  
+  .register-button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .register-button:hover {
+    background-color: #0056b3;
+  }
